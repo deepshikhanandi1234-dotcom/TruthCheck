@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
 import diyaImage from './assets/diya.webp'
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001'
+const API_URL = import.meta.env.VITE_API_URL || 'https://truthcheck-backend-m5iq.onrender.com'
 
 // Paste your /diya image base64 here when ready
 const DIYA_IMG = diyaImage
